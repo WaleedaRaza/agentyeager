@@ -1,0 +1,4 @@
+llm: ollama
+name: my_agent
+skills:
+- local_search

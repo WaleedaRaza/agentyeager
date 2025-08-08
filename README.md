@@ -148,9 +148,6 @@ agentflow run research_agent_config.yaml \
 ### 🎯 Agent Configuration
 
 AgentYeager uses YAML configuration files to define agent behavior, skills, and system settings. The configuration system supports hierarchical settings, environment-specific overrides, and dynamic skill loading. Each agent can be configured with specific LLM models, memory settings, security policies, and performance parameters.
-
-### 🧠 Advanced Memory System
-
 The memory system provides persistent, encrypted storage with intelligent context retrieval. It supports reflection capabilities that allow agents to learn from past interactions, compression for efficient storage, and automatic backup systems. The memory manager integrates with the RAG pipeline for enhanced context understanding.
 
 ### 🔧 Skill Development Framework
@@ -265,96 +262,6 @@ agentflow backup schedule --daily --time 02:00
 
 ## 🏭 Production Deployment
 
-### Docker Deployment
-
-AgentYeager supports containerized deployment with multi-stage Docker builds optimized for production. The Docker configuration includes health checks, non-root user security, and resource limits. The system can be deployed using Docker Compose with Redis, Nginx, and multiple agent instances.
-
-### Kubernetes Deployment
-
-For enterprise environments, AgentYeager provides Kubernetes manifests with auto-scaling, load balancing, and persistent storage. The deployment includes ConfigMaps for configuration management, Services for network access, and PersistentVolumeClaims for data persistence.
-
-## 📈 Performance & Scalability
-
-### Benchmark Results
-
-AgentYeager achieves impressive performance metrics:
-- Single agent response time: 2.3s average
-- Swarm coordination overhead: <5%
-- Memory usage: 512MB per agent
-- Concurrent tasks: 50+ per agent
-- Throughput: 1000+ tasks/hour
-
-### Optimization Strategies
-
-The framework includes built-in optimization for memory usage, task execution, and network communication. The auto-scaling system can dynamically provision agents based on workload demands, with configurable thresholds and scaling policies.
-
-### Auto-scaling Configuration
-
-The auto-scaling system monitors CPU usage, memory consumption, queue length, and response times to automatically adjust the number of active agents. It supports multiple scaling policies and includes cooldown periods to prevent rapid scaling oscillations.
-
-## 🔒 Security & Privacy
-
-### Security Features
-
-AgentYeager implements comprehensive security measures including role-based access control, JWT authentication, audit logging, and data encryption. The system supports secure communication channels, encrypted storage, and automatic key rotation.
-
-### Privacy Protection
-
-The privacy system includes data anonymization, PII detection, and configurable data retention policies. All processing occurs locally, ensuring complete data privacy and compliance with regulatory requirements.
-
-## 🧪 Testing & Quality Assurance
-
-### Comprehensive Test Suite
-
-The testing framework includes unit tests, integration tests, performance benchmarks, and security scans. The system supports memory leak detection, load testing, and automated quality gates.
-
-### Quality Gates
-
-Quality assurance includes minimum test coverage requirements, complexity limits, security scanning, and performance thresholds. The system automatically enforces these gates during the development process.
-
-## 📚 API Reference
-
-### Core Classes
-
-The framework provides several core classes for agent management, swarm coordination, memory handling, and skill development. Each class includes comprehensive documentation and type hints for better development experience.
-
-### Configuration Options
-
-AgentYeager supports extensive configuration options for LLM settings, memory management, skill parameters, network configuration, and security policies. All settings can be customized through YAML configuration files or programmatically.
-
-## 🔧 Troubleshooting
-
-### Common Issues
-
-The troubleshooting guide covers memory issues, performance problems, network connectivity, and configuration errors. Each issue includes diagnostic commands and resolution steps.
-
-### Debug Mode
-
-Debug mode provides detailed logging, verbose output, and profiling capabilities to help developers identify and resolve issues quickly.
-
-### Log Analysis
-
-The system includes tools for log analysis, search, and real-time monitoring to help with debugging and performance optimization.
-
-## 🤝 Contributing
-
-We welcome contributions from the community! The project includes comprehensive development setup instructions, code style guidelines, testing procedures, and documentation standards.
-
-### Development Setup
-
-The development environment includes virtual environment setup, dependency installation, pre-commit hooks, and development server configuration.
-
-### Code Style
-
-The project enforces consistent code formatting with Black, import sorting with isort, and comprehensive linting with flake8 and mypy.
-
-### Testing
-
-The testing framework supports multiple test categories including unit tests, integration tests, performance tests, and security scans.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 

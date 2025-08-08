@@ -248,7 +248,8 @@ agentflow backup schedule --daily --time 02:00
 ```
 
 
+**⭐ Star this repository if you find it helpful!**
 
-**AgentYeager** - Empowering developers to build the future of autonomous AI systems, one agent at a time. 🚀
+**🔄 Fork and contribute to make it even better!**
 
-*Built with ❤️ by the AgentYeager community*
+**📧 Contact for collaboration opportunities!**

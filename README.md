@@ -20,18 +20,12 @@ AgentYeager is a cutting-edge, local-first Python framework for building autonom
 - **🔒 100% Local-First**: Complete privacy with no cloud dependencies
 - **🤖 Multi-Agent Swarms**: Coordinate autonomous agents with shared state management
 - **🧠 Advanced Memory System**: SQLite-backed persistent memory with reflection capabilities
-- **⚡ Real-time Streaming**: Multi-turn reasoning with live response streaming
 - **🔧 Modular Skill System**: Pluggable skills for any automation task
 - **📊 RAG Pipelines**: Local embedding lookup and retrieval-augmented generation
 - **🎯 Task Chaining**: Complex workflow orchestration with persistent planning
 - **🖥️ Native UI Integration**: macOS native interface via PyObjC
-- **🐳 Docker Ready**: Containerized deployment for production environments
-- **📈 Redis Coordination**: Distributed state management for agent swarms
-- **🔐 Enterprise Security**: Role-based access, audit logging, encrypted storage
-- **📊 Performance Monitoring**: Real-time metrics, resource tracking, optimization
 - **🔄 Auto-scaling**: Dynamic agent provisioning based on workload
 - **🌐 API Gateway**: RESTful API for external integrations
-- **📱 Mobile Support**: iOS/Android SDK for mobile agent control
 
 ## 🏗️ Architecture
 
@@ -78,12 +72,6 @@ AgentYeager is a cutting-edge, local-first Python framework for building autonom
 ### Prerequisites
 
 ```bash
-# System Requirements
-# - Python 3.8+
-# - 8GB+ RAM (16GB+ recommended)
-# - 10GB+ free disk space
-# - macOS 12+ (for native UI features)
-
 # Install Ollama for local LLM inference
 curl -fsSL https://ollama.ai/install.sh | sh
 
@@ -154,7 +142,6 @@ The memory system provides persistent, encrypted storage with intelligent contex
 
 The modular skill system allows developers to create custom automation capabilities. Skills can be rate-limited, validated, and versioned. The framework provides decorators for async execution, input validation, and error handling. Skills can be distributed through a marketplace system with automatic updates and dependency management.
 
-## 🌟 Advanced Features
 
 ### 🤖 Multi-Agent Swarms
 
@@ -260,54 +247,7 @@ agentflow backup restore --from backup_2024_01_15.tar.gz
 agentflow backup schedule --daily --time 02:00
 ```
 
-## 🏭 Production Deployment
 
-
-## 🙏 Acknowledgments
-
-- [Ollama](https://ollama.ai) for local LLM inference
-- [LangChain](https://langchain.com) for inspiration and patterns
-- [Redis](https://redis.io) for distributed state management
-- [FastAPI](https://fastapi.tiangolo.com) for async web framework
-- [SQLite](https://sqlite.org) for embedded database
-- [PyObjC](https://pyobjc.readthedocs.io) for macOS native integration
-- [Docker](https://docker.com) for containerization
-- [Kubernetes](https://kubernetes.io) for orchestration
-
-## 📞 Support
-
-- **Documentation**: [docs.agentyeager.dev](https://docs.agentyeager.dev)
-- **API Reference**: [api.agentyeager.dev](https://api.agentyeager.dev)
-- **Issues**: [GitHub Issues](https://github.com/WaleedaRaza/agentyeager/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/WaleedaRaza/agentyeager/discussions)
-- **Discord**: [AgentYeager Community](https://discord.gg/agentyeager)
-- **Email**: support@agentyeager.dev
-- **Twitter**: [@AgentYeager](https://twitter.com/AgentYeager)
-
-## 🚀 Roadmap
-
-### v2.0 (Q2 2024)
-- [ ] Multi-modal agent support (vision, audio)
-- [ ] Advanced reasoning chains
-- [ ] Federated learning capabilities
-- [ ] Mobile SDK (iOS/Android)
-- [ ] Web dashboard
-
-### v2.1 (Q3 2024)
-- [ ] Auto-scaling infrastructure
-- [ ] Advanced security features
-- [ ] Enterprise SSO integration
-- [ ] Custom model training
-- [ ] Advanced analytics
-
-### v2.2 (Q4 2024)
-- [ ] Edge computing support
-- [ ] Real-time collaboration
-- [ ] Advanced workflow orchestration
-- [ ] Multi-tenant architecture
-- [ ] Advanced monitoring
-
----
 
 **AgentYeager** - Empowering developers to build the future of autonomous AI systems, one agent at a time. 🚀
 
